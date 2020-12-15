@@ -16,7 +16,6 @@ while True:
 
     print("Classic Levenshtein Distance ",distance_cl)
 
-
     distance_re = pylev.recursive_levenshtein(string1,string2)
 
     print("Recursive Levenshtein Distance: ",distance_re)
